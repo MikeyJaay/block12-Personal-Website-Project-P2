@@ -1,0 +1,94 @@
+/* START OF Code Applies to All Pages */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* START OF HEADER */
+header {
+  display: flex;
+  position: fixed; /* Keeps Header in view even with scroll -- MIGHT CHANGE */
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100vw;
+  border: 1px solid black;
+  background-color: #134e6a;
+  width: 100vw;
+  z-index: 10000; /* stopped content from going over header during scroll on careers page, issue only happend on careers page */
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+}
+
+nav > a {
+  margin-right: 2rem;
+  font-size: 0.7rem;
+  color: white;
+  padding-right: 5px;
+}
+/* END OF HEADER */
+
+/* START OF MAIN */
+main {
+  flex-grow: 1; /*Allows main to grow and fill available space */
+  background-color: #4f88a6;
+  min-height: 100vh;
+  width: 80vw;
+  padding: 20px;
+  margin-top: 4rem; /* Stops header from going over top of first line of main contnet i.e. <h1> */
+  overflow: auto; /*Adds scroll to main if content overflow */
+}
+
+main {
+  /* background img code */
+  background-image: url(../PHOTOS/mnt-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+aside {
+  min-height: 80vh;
+  min-width: 0vw; /* Removed aside coloumns due to look origin a value 15vw */
+  background-color: #739072;
+}
+
+body {
+  display: flex;
+}
+
+body > div {
+  display: flex;
+}
+
+/* END OF MAIN */
+
+/* START OF FOOTER */
+footer {
+  width: 100vw;
+  background-color: #134e6a;
+  height: auto;
+  padding: 20px 0; /* 20 adds spacing to top & bottom off footer, 0 is for no padding on L/R sides in casue of changes to <aside> tags */
+}
+
+footer > a > img {
+  /* Styling for Social Meida Icons in Footer */
+  height: 20px;
+  margin-left: 10px;
+}
+/* End of Code Applies to All Pages */
