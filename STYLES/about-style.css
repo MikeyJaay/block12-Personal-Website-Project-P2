@@ -1,0 +1,48 @@
+/* START OF ABOUT ME CODE*/
+.welcome-title {
+  display: flex;
+  justify-content: center;
+  padding-right: 5rem;
+  font-size: 80px;
+  color: white;
+  font-weight: bolder;
+}
+
+main > h1,
+h2 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.AppLogos {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AppLogos img {
+  max-width: 100px;
+  margin: 10px;
+}
+
+p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* Hover Effect for App Logos */
+.AppLogos img {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.AppLogos img:hover {
+  transform: scale(1.5); /* Scale up the image on hover */
+}
+
+/* End of Hover Effect */
+/* END OF ABOUT ME CODE */

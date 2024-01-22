@@ -1,0 +1,39 @@
+.welcome-title {
+  display: flex;
+  justify-content: center;
+  padding-right: 5rem;
+  font-size: 80px;
+  color: white;
+  font-weight: bolder;
+}
+
+.box > h1,
+h2 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.box {
+  background-color: #283a4593;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.box > p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.box > img {
+  top: 10px;
+  width: 50px;
+  height: auto;
+  float: right;
+}

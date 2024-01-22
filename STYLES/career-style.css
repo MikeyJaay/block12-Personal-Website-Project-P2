@@ -1,0 +1,79 @@
+/* START OF CAREERS CODE */
+#filterOptions {
+  /* Style for the filter dropdown */
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.welcome-title {
+  display: flex;
+  justify-content: center;
+  padding-right: 5rem;
+  font-size: 80px;
+  color: white;
+  font-weight: bolder;
+}
+
+.jobS {
+  /* Style for each job entry */
+  background-color: #283a4593;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.jobS > h1 {
+  /* Puts Experience Title on the same line as h2 job title but left alinged */
+  float: left;
+  color: white;
+  font-weight: bold;
+}
+
+.jobS > h2 {
+  /* Puts Year h2 on the same line as h1 job title but right alinged */
+  float: right;
+  font-size: 20px;
+  color: white;
+}
+
+.jobS > p:nth-child(4) {
+  margin-top: 40px;
+  color: white;
+}
+
+a > p {
+  /* Learn more buttons code  */
+  color: white;
+  background-color: #6da4c4;
+  padding: 10px 20px; /* expands button around 'learn more'  */
+  display: inline-block; /* keeps button confiend to 'learn more' text */
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+/* START OF COMPANY LOGO CODE  */
+.jobS {
+  position: relative; /* Set relative positioning */
+}
+
+.jobS img {
+  /* Style for the job logo */
+  position: absolute; /* Position the image absolutely within the .jobS div */
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  height: auto;
+}
+
+.jobS > h1,
+.jobS > h2,
+.jobS > p {
+  margin-left: 70px; /* Adjust left margin to make space for the image */
+}
+
+.jobS > img {
+  border-radius: 48%;
+}
+/* END OF COMPNAY LOGO CODE */
+/* END OF CAREERS CODE */
