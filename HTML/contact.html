@@ -4,12 +4,12 @@
   <head>
     <link rel="stylesheet" href="../STYLES/reset.css" />
     <link rel="stylesheet" href="../STYLES/style.css" />
-    <link rel="stylesheet" href="../STYLES/project-style.css" />
+    <link rel="stylesheet" href="../STYLES/contact.css" />
     <script src="../JS/script.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- END OF FOLDER FIX COPY FOR CSS & JS -->
-    <title>Projects</title>
+    <title>Contact</title>
   </head>
   <body>
     <!-- START OF FOLDER FIX COPY FOR PHOTOS & NAV PAGES -->
@@ -30,40 +30,24 @@
     <div>
       <aside></aside>
       <main>
-        <h1 class="welcome-title">My Projects</h1>
-        <!-- Projects -->
+        <h1 class="welcome-title">Get in Touch</h1>
+        <!-- Start of Form Code -->
         <div class="box">
-          <img src="../PHOTOS/img-placeholder.png" alt="">
-        <h1>Project 1</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          deleniti inventore doloremque pariatur labore, aperiam, est repellat
-          ad ratione fugit corporis dignissimos necessitatibus praesentium
-          molestias officiis omnis a officia amet!
-        </p>
-      </div>
+          <h1>Want to get in touch?! Fill out the below!</h1>
+          <form action="submission.html">
+            <label for="name">Name</label>
+            <input type="text" name="name" />
 
-      <div class="box">
-        <img src="../PHOTOS/img-placeholder.png" alt="">
-        <h1>Project 2</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-          recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
-          Incidunt sint voluptates accusantium ipsa ipsum, corrupti est deleniti
-          cumque molestias sequi?
-        </p>
-      </div>
-
-      <div class="box">
-        <img src="../PHOTOS/img-placeholder.png" alt="">
-        <h1>Project 3</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-          recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
-          Incidunt sint voluptates accusantium ipsa ipsum, corrupti est deleniti
-          cumque molestias sequi?
-        </p>
-      </div>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+            <!-- Text Box code for form -->
+            <label for="message">Your Message</label>
+            <textarea name="message" id="" rows="4"></textarea>
+            <!-- End of Text Box code for form -->
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- End of Form Code -->
       </main>
       <aside></aside>
     </div>
