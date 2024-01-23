@@ -15,8 +15,8 @@ main > img {
 }
 
 .thank-h1 {
-  color: white;
-  background-color: silver;
+  color: rgb(255, 255, 255);
+  background-color: rgb(32, 206, 41);
   padding: 10px 20px; /* expands button around 'text'  */
   display: inline-block; /* keeps button confiend to text */
   margin-top: 10px;
@@ -26,7 +26,7 @@ main > img {
 
 .enjoy-h1 {
   color: white;
-  background-color: silver;
+  background-color: rgb(32, 206, 41);
   padding: 10px 20px; /* expands button around 'text'  */
   display: inline-block; /* keeps button confiend to text */
   margin-top: 10px;
