@@ -9,7 +9,8 @@
 .quote-box {
   padding-top: 300px;
 }
-.quote-box > h1,h2 {
+.quote-box > h1,
+h2 {
   margin-left: 20rem;
   margin-top: 1rem;
   color: white;
@@ -26,3 +27,14 @@
   margin-top: 1rem;
 }
 
+.home-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.home-body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
