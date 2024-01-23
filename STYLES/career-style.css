@@ -76,4 +76,56 @@ a > p {
   border-radius: 48%;
 }
 /* END OF COMPNAY LOGO CODE */
+
+/* Start of Media Query   */
+@media (max-width: 600px) {
+  /* This is the start for the everything in the media q   */
+  body {
+    width: 100%; /* Adjust the width for small screens */
+    /* Add other responsive styles for .home-body if needed */
+  }
+
+  .welcome-title {
+    /* Adjust font sizes for smaller screens */
+    font-size: 50px;
+
+    /* Adjust margins and padding as needed for smaller screens */
+    margin-left: 0rem;
+    padding: 0;
+  }
+  .jobS {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .jobS > h2 {
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 5rem;
+  }
+
+  .jobS > p {
+    font-size: smaller;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 0;
+    padding-right: 5px;
+  }
+
+  .learn-more {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 30vw;
+  }
+ 
+  .jobS > img {
+    width: 50px;
+  }
+} /* This is the end for the everything in the media q   */
+/* End of Media Query */
+
 /* END OF CAREERS CODE */
