@@ -33,3 +33,33 @@ main > img {
   border-radius: 20px;
   font-size: 50px;
 }
+
+@media (max-width: 600px) {
+  /* This is the start for the everything in the media q   */
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .thank-h1,
+  .enjoy-h1 {
+    font-size: 30px;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+
+  main > img {
+    max-width: 80%;
+    height: auto;
+  }
+}
