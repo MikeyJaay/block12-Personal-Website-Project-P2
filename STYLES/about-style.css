@@ -68,6 +68,11 @@ h2 {
   height: auto;
   float: right;
 }
+
+.sly-cooper {
+  display: flex;
+  justify-content: center;
+}
 /* End of box code */
 
 /* Hover Effect for App Logos */
@@ -80,4 +85,40 @@ h2 {
 }
 
 /* End of Hover Effect */
+
+/* Start of Media Query   */
+@media (max-width: 600px) {
+  /* This is the start for the everything in the media q   */
+  .home-body {
+    width: 100%; /* Adjust the width for small screens */
+    /* Add other responsive styles for .home-body if needed */
+  }
+
+  .welcome-title {
+    /* Adjust font sizes for smaller screens */
+    font-size: 50px;
+
+    /* Adjust margins and padding as needed for smaller screens */
+    margin-left: 0rem;
+    padding: 0;
+  }
+  .box {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box > h1, {
+    font-size: medium; /* Adjust font size for smaller screens */
+    margin: 0.5rem; /* Adjusted margin */
+  }
+
+  .box > p {
+    font-size: small;
+    margin: 0.5rem;
+  }
+} /* This is the end for the everything in the media q   */
+/* End of Media Query */
+
 /* END OF ABOUT ME CODE */
