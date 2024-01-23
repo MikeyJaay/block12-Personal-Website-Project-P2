@@ -37,3 +37,22 @@ h2 {
   height: auto;
   float: right;
 }
+
+/* Start of Media Query   */
+@media (max-width: 600px) {
+  /* This is the start for the everything in the media q   */
+  body {
+    width: 100%; /* Adjust the width for small screens */
+    /* Add other responsive styles for .home-body if needed */
+  }
+
+  .welcome-title {
+    /* Adjust font sizes for smaller screens */
+    font-size: 50px;
+
+    /* Adjust margins and padding as needed for smaller screens */
+    margin-left: 0rem;
+    padding: 0;
+  }
+} /* This is the end for the everything in the media q   */
+/* End of Media Query */
