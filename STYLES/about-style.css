@@ -72,6 +72,7 @@ h2 {
 .sly-cooper {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 /* End of box code */
 
@@ -89,7 +90,7 @@ h2 {
 /* Start of Media Query   */
 @media (max-width: 600px) {
   /* This is the start for the everything in the media q   */
-  .home-body {
+  body {
     width: 100%; /* Adjust the width for small screens */
     /* Add other responsive styles for .home-body if needed */
   }
@@ -109,8 +110,8 @@ h2 {
     align-items: center;
     flex-direction: column;
   }
-  .box > h1, {
-    font-size: medium; /* Adjust font size for smaller screens */
+  .box > h1 {
+    font-size: larger; /* Adjust font size for smaller screens */
     margin: 0.5rem; /* Adjusted margin */
   }
 
