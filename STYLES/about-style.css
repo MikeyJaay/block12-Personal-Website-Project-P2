@@ -35,6 +35,40 @@ p {
   font-size: 15px;
 }
 
+/* Start of box code */
+
+.box > h1,
+h2 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.box {
+  background-color: #283a45c5;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.box > p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.box > img {
+  top: 10px;
+  width: 50px;
+  height: auto;
+  float: right;
+}
+/* End of box code */
+
 /* Hover Effect for App Logos */
 .AppLogos img {
   transition: transform 0.3s ease; /* Smooth transition for scaling */
